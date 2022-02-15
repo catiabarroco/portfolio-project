@@ -1,0 +1,16 @@
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+h1 {
+  color: blueviolet;
+}
+
+.pop {
+  font-family: "Poppins", sans-serif;
+}
+
+.robt {
+  font-family: "Roboto", sans-serif;
+}
