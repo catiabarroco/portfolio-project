@@ -84,25 +84,36 @@ h2 {
 
 /*about page*/
 
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
 
-.about-section-content {
+.content {
   padding: 30px;
 }
-.about-section h1 {
+.content h1 {
   font-size: 63px;
   line-height: 1;
 }
-.about-section p {
+.content p {
   font-size: 16px;
   line-height: 2;
 }
-.about-section h2 {
+.content h2 {
   font-size: 18px;
   font-weight: bold;
   margin: 30px 0;
+}
+.content h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0 0;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
+}
+
+.content p {
+  font-size: 14px;
 }
 
 @media (max-width: 900px) {
@@ -120,7 +131,7 @@ h2 {
   .hero {
     padding: 80px 20px;
   }
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
