@@ -112,11 +112,11 @@ h2 {
   font-family: var(--default-font-family);
 }
 
-.content a{
+.contact-link{
   text-decoration: none;
   color: var(--branding-color);
 }
-.content a:hover{
+.contact-link:hover{
   text-decoration: underline;
   color: var(--branding-color);
 }
