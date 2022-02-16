@@ -36,6 +36,18 @@ h2 {
   font-size: 64px;
 }
 
+.navbar {
+  background-color: white;
+}
+
+.logo,
+.logo-small {
+  max-height: 42px;
+}
+.logo-small {
+  border-radius: 50%;
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -112,11 +124,11 @@ h2 {
   font-family: var(--default-font-family);
 }
 
-.contact-link{
+.contact-link {
   text-decoration: none;
   color: var(--branding-color);
 }
-.contact-link:hover{
+.contact-link:hover {
   text-decoration: underline;
   color: var(--branding-color);
 }
