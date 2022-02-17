@@ -191,6 +191,10 @@ footer .social-links a:hover {
   background-color: var(--branding-color);
 }
 
+.right{
+  text-align: right;
+}
+
 @media (max-width: 900px) {
   .project-description {
     text-align: center;
