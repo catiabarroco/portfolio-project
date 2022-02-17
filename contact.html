@@ -29,20 +29,27 @@
       crossorigin="anonymous"
     ></script>
 
-    <title>Portfolio</title>
+    <meta
+    name="description"
+    content="Contact Patricia, she is a front-end engeneer based in Portugal"
+  />
+  <title>Contact Patricia - Patricia Pereira</title>
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-lg navbar-light"
-      style="background-color: white"
-    >
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-          <img src="images/logo.png" alt="" class="logo d-none d-md-block" />
+          <img
+            src="images/logo.png"
+            alt="Patricia Logo"
+            class="logo d-none d-md-block"
+            title="Homepage"
+          />
           <img
             src="images/small'logo.jpg"
-            alt=""
+            alt="Patricia Logo"
             class="logo-small d-block d-md-none"
+            title="Homepage"
           />
         </a>
         <button
@@ -56,19 +63,37 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div
+          class="collapse navbar-collapse flex-grow-0"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-item nav-link" href="index.html">Home</a>
+              <a class="nav-item nav-link" href="index.html" title="Homepage"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-item nav-link" href="about.html">About</a>
+              <a
+                class="nav-item nav-link"
+                href="about.html"
+                title="About Patricia"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-item nav-link" href="work.html">Projects</a>
+              <a
+                class="nav-item nav-link"
+                href="work.html"
+                title="Patricia's works"
+                >Projects</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-item nav-link active" href="contact.html"
+              <a
+                class="nav-item nav-link active"
+                href="contact.html"
+                title="Contact Patricia"
                 >Contacts</a
               >
             </li>
@@ -82,15 +107,65 @@
         <h1 class="mb-5">Let's get in touch!</h1>
         <h3>Email</h3>
         <p>
-          <a href="mailto:patricia@gmail.com" class="contact-link"
+          <a href="mailto:patricia@gmail.com" class="contact-link" title="Patricia's Email"
             >patricia@gmail.com</a
           >
         </p>
         <h3>Twitter</h3>
-        <p><a href="#" class="contact-link">@patricia</a></p>
+        <p><a href="https://www.twitter.com/patricia" class="contact-link" title="Twitter Perfil">@patricia</a></p>
         <h3>Instagram</h3>
-        <p><a href="#" class="contact-link">@patricia.codes</a></p>
+        <p><a href="https://www.instagram.com/patricia" class="contact-link" title="Instagram Perfil">@patricia.codes</a></p>
       </div>
+
+      <footer>
+        <div class="contact-box row mb-5">
+          <div class="col">
+            <h4>Work Inquiry</h4>
+            <p class="opacity-75">Let's work together</p>
+          </div>
+          <div class="col right">
+            <a href="contact.html" title="Contact Me" class="btn btn-branding"
+              >Let’s talk here</a
+            >
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <a
+            href="mailto:patricia@gmail.com"
+            class="email-link"
+            title="Email Patricia"
+          >
+            patricia@gmail.com
+          </a>
+        </div>
+
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/patricia"
+            target="_blank"
+            title="Instagram Profile"
+          >
+            <i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://www.github.com/patricia" target="_blank">
+            <i class="fab fa-github" title="GitHub Profile"></i
+          ></a>
+          <a href="https://www.facebook.com/patricia" target="_blank"
+            ><i class="fab fa-facebook" title="Facebook Profile"></i
+          ></a>
+        </div>
+
+        <p class="text-center mt-5 opacity-75">
+          This project was coded SheCodes, and it is
+          <a
+            href="https://github.com/catiabarroco/portfolio-project"
+            target="_blank"
+            class="text-dark"
+            >open-sourced</a
+          >🖖
+        </p>
+      </footer>
     </div>
   </body>
 </html>
